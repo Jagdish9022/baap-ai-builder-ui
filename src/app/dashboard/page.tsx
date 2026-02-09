@@ -12,7 +12,7 @@ import FileEnhancementModal from "@/components/dashboard/file-enhancement-modal"
 import { useAuth } from "@/hooks/use-auth"
 import { toast } from "@/components/ui/toast"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dbe547607cdc.ngrok-free.app/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || " https://ee0b-103-112-11-19.ngrok-free.app"
 
 interface Chatbot {
   id: string

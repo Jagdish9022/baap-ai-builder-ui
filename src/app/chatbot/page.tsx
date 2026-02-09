@@ -4,7 +4,7 @@ import { Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import ChatBot from "@/components/chatbot/chatbot"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dbe547607cdc.ngrok-free.app/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || " https://ee0b-103-112-11-19.ngrok-free.app/api"
 
 function ChatBotWrapper() {
   const searchParams = useSearchParams()
