@@ -14,7 +14,7 @@ const afacadFlux = Afacad({
 })
 
 export const metadata: Metadata = {
-  title: "BAAP AI - Create Your Custom AI Chatbot",
+  title: "Rapid Bot - Create Your Custom AI Chatbot",
   description: "Transform any website into an intelligent chatbot in minutes",
 }
 

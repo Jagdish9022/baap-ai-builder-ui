@@ -4,7 +4,7 @@ import type React from "react"
 import { useState, useRef, useEffect } from "react"
 import { MessageCircle, Send, X, Bot, User, Palette, Mail, Linkedin, Phone, Globe } from "lucide-react"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dbe547607cdc.ngrok-free.app/api"
 
 interface Message {
   id: number
@@ -482,7 +482,7 @@ const ChatBot: React.FC<ChatBotProps> = ({
                 <Bot className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-semibold text-base">BAAP AI</h3>
+                <h3 className="font-semibold text-base">Rapid Bot</h3>
                 <p className="text-xs text-white/80">Always here to help</p>
               </div>
             </div>

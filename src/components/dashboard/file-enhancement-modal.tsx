@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { X, Upload, FileText, AlertCircle } from "lucide-react"
 import { toast } from "@/components/ui/toast"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dbe547607cdc.ngrok-free.app"
 
 interface FileEnhancementModalProps {
   isOpen: boolean
