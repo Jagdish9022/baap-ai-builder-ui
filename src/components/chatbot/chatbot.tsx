@@ -4,7 +4,7 @@ import type React from "react"
 import { useState, useRef, useEffect } from "react"
 import { MessageCircle, Send, X, Bot, User, Palette, Mail, Linkedin, Phone, Globe } from "lucide-react"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dbe547607cdc.ngrok-free.app/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || " https://ee0b-103-112-11-19.ngrok-free.app/api"
 
 interface Message {
   id: number

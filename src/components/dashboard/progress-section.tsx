@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { Globe, Cog, Brain, Database, CheckCircle, Clock, AlertCircle } from "lucide-react"
 import { toast } from "@/components/ui/toast"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dbe547607cdc.ngrok-free.app/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || " https://ee0b-103-112-11-19.ngrok-free.app/api"
 
 interface ProgressSectionProps {
   taskId: string
