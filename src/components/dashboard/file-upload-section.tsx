@@ -7,7 +7,7 @@ import { Upload, X, FileText } from "lucide-react"
 import { motion } from "framer-motion"
 import { toast } from "@/components/ui/toast"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dbe547607cdc.ngrok-free.app/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || " https://ee0b-103-112-11-19.ngrok-free.app/api"
 
 interface FileUploadSectionProps {
   userId: string
