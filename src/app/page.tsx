@@ -26,18 +26,18 @@ export default function HomePage() {
                 <div className="absolute -top-1 -right-1 w-4 h-4 bg-yellow-400 rounded-full animate-pulse"></div>
               </div>
               <h1 className="text-3xl font-bold bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
-                BAAP AI
+                Rapid Bot
               </h1>
           </div> */}
 
           <div className="flex items-center space-x-3 px-4 py-2">
             <img
               src="image.png"
-              alt="BAAP AI Logo"
+              alt="Rapid Bot Logo"
               className="w-8 h-8 md:w-10 md:h-10 object-contain"
             />
             <h1 className="text-[1.19rem] md:text-[1.325rem] font-bold text-white tracking-wide font-afacad-flux">
-              BAAP <span className="text-blue-100">AI</span>
+              Rapid <span className="text-blue-100">Bot</span>
             </h1>
 
           </div>

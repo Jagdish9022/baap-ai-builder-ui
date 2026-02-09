@@ -7,7 +7,7 @@ import { Mail, Lock, LogIn, Eye, EyeOff } from "lucide-react"
 import { motion } from "framer-motion"
 import { toast } from "@/components/ui/toast"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dbe547607cdc.ngrok-free.app/api"
 
 export default function LoginForm() {
   const [email, setEmail] = useState("")

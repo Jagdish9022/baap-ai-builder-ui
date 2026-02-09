@@ -12,7 +12,7 @@ import FileEnhancementModal from "@/components/dashboard/file-enhancement-modal"
 import { useAuth } from "@/hooks/use-auth"
 import { toast } from "@/components/ui/toast"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dbe547607cdc.ngrok-free.app/api"
 
 interface Chatbot {
   id: string
@@ -303,7 +303,7 @@ export default function DashboardPage() {
                 <div className="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">🤖</span>
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">Welcome to BAAP AI</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">Welcome to Rapid Bot</h2>
                 <p className="text-gray-600 mb-6 max-w-md">
                   Select a chatbot from the sidebar to view details, or create a new one to get started.
                 </p>
